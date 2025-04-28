@@ -5,3 +5,9 @@ database.yml 編集　password, host: dbに変更
 db削除　なぜか必要  
 docker-compose run web rails db:create migrateと同じ  
 docker-compose up　起動  
+
+gitignore変更する  
+
+/db/mysql_data/  
+mysql.sock  
+
